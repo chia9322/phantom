@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C239E413276885E700166C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239E412276885E700166C9F /* AppDelegate.swift */; };
+		C239E415276885E700166C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239E414276885E700166C9F /* SceneDelegate.swift */; };
+		C239E41A276885E700166C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C239E418276885E700166C9F /* Main.storyboard */; };
+		C239E41C276885F100166C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C239E41B276885F100166C9F /* Assets.xcassets */; };
+		C239E41F276885F100166C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C239E41D276885F100166C9F /* LaunchScreen.storyboard */; };
+		C239E4272768864F00166C9F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239E4262768864F00166C9F /* Song.swift */; };
+		C239E429276888E800166C9F /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239E428276888E800166C9F /* SongTableViewController.swift */; };
+		C239E4352768976000166C9F /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239E4342768976000166C9F /* SongTableViewCell.swift */; };
+		C2A365562769B8C2001A4428 /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A365552769B8C2001A4428 /* LyricsViewController.swift */; };
+		C2A3655A2769F368001A4428 /* all-i-ask-of-you-240.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C2A365572769F367001A4428 /* all-i-ask-of-you-240.mp4 */; };
+		C2A3655B2769F368001A4428 /* the-phantom-of-the-opera-240.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C2A365582769F368001A4428 /* the-phantom-of-the-opera-240.mp4 */; };
+		C2A3655C2769F368001A4428 /* think-of-me-240.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C2A365592769F368001A4428 /* think-of-me-240.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C239E40F276885E700166C9F /* PhantomOfTheOpera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhantomOfTheOpera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C239E412276885E700166C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C239E414276885E700166C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C239E419276885E700166C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C239E41B276885F100166C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C239E41E276885F100166C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C239E420276885F100166C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C239E4262768864F00166C9F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C239E428276888E800166C9F /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		C239E4342768976000166C9F /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		C2A365552769B8C2001A4428 /* LyricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
+		C2A365572769F367001A4428 /* all-i-ask-of-you-240.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "all-i-ask-of-you-240.mp4"; sourceTree = "<group>"; };
+		C2A365582769F368001A4428 /* the-phantom-of-the-opera-240.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "the-phantom-of-the-opera-240.mp4"; sourceTree = "<group>"; };
+		C2A365592769F368001A4428 /* think-of-me-240.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "think-of-me-240.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C239E40C276885E700166C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C239E406276885E600166C9F = {
+			isa = PBXGroup;
+			children = (
+				C239E411276885E700166C9F /* PhantomOfTheOpera */,
+				C239E410276885E700166C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C239E410276885E700166C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C239E40F276885E700166C9F /* PhantomOfTheOpera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C239E411276885E700166C9F /* PhantomOfTheOpera */ = {
+			isa = PBXGroup;
+			children = (
+				C2A365572769F367001A4428 /* all-i-ask-of-you-240.mp4 */,
+				C2A365582769F368001A4428 /* the-phantom-of-the-opera-240.mp4 */,
+				C2A365592769F368001A4428 /* think-of-me-240.mp4 */,
+				C239E412276885E700166C9F /* AppDelegate.swift */,
+				C239E414276885E700166C9F /* SceneDelegate.swift */,
+				C239E418276885E700166C9F /* Main.storyboard */,
+				C239E41B276885F100166C9F /* Assets.xcassets */,
+				C239E41D276885F100166C9F /* LaunchScreen.storyboard */,
+				C239E420276885F100166C9F /* Info.plist */,
+				C239E4262768864F00166C9F /* Song.swift */,
+				C239E428276888E800166C9F /* SongTableViewController.swift */,
+				C239E4342768976000166C9F /* SongTableViewCell.swift */,
+				C2A365552769B8C2001A4428 /* LyricsViewController.swift */,
+			);
+			path = PhantomOfTheOpera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C239E40E276885E700166C9F /* PhantomOfTheOpera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C239E423276885F100166C9F /* Build configuration list for PBXNativeTarget "PhantomOfTheOpera" */;
+			buildPhases = (
+				C239E40B276885E700166C9F /* Sources */,
+				C239E40C276885E700166C9F /* Frameworks */,
+				C239E40D276885E700166C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhantomOfTheOpera;
+			productName = PhantomOfTheOpera;
+			productReference = C239E40F276885E700166C9F /* PhantomOfTheOpera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C239E407276885E600166C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C239E40E276885E700166C9F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C239E40A276885E600166C9F /* Build configuration list for PBXProject "PhantomOfTheOpera" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C239E406276885E600166C9F;
+			productRefGroup = C239E410276885E700166C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C239E40E276885E700166C9F /* PhantomOfTheOpera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C239E40D276885E700166C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A3655B2769F368001A4428 /* the-phantom-of-the-opera-240.mp4 in Resources */,
+				C239E41F276885F100166C9F /* LaunchScreen.storyboard in Resources */,
+				C2A3655C2769F368001A4428 /* think-of-me-240.mp4 in Resources */,
+				C2A3655A2769F368001A4428 /* all-i-ask-of-you-240.mp4 in Resources */,
+				C239E41C276885F100166C9F /* Assets.xcassets in Resources */,
+				C239E41A276885E700166C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C239E40B276885E700166C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C239E4352768976000166C9F /* SongTableViewCell.swift in Sources */,
+				C239E429276888E800166C9F /* SongTableViewController.swift in Sources */,
+				C239E4272768864F00166C9F /* Song.swift in Sources */,
+				C239E413276885E700166C9F /* AppDelegate.swift in Sources */,
+				C2A365562769B8C2001A4428 /* LyricsViewController.swift in Sources */,
+				C239E415276885E700166C9F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C239E418276885E700166C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C239E419276885E700166C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C239E41D276885F100166C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C239E41E276885F100166C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C239E421276885F100166C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C239E422276885F100166C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C239E424276885F100166C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7YW6923F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhantomOfTheOpera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebear.PhantomOfTheOpera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C239E425276885F100166C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7YW6923F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhantomOfTheOpera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebear.PhantomOfTheOpera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C239E40A276885E600166C9F /* Build configuration list for PBXProject "PhantomOfTheOpera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C239E421276885F100166C9F /* Debug */,
+				C239E422276885F100166C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C239E423276885F100166C9F /* Build configuration list for PBXNativeTarget "PhantomOfTheOpera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C239E424276885F100166C9F /* Debug */,
+				C239E425276885F100166C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C239E407276885E600166C9F /* Project object */;
+}
